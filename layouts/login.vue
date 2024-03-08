@@ -30,6 +30,9 @@
   .content {
     flex: 1;
     border: 1px solid var(--GRIS20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 </style>

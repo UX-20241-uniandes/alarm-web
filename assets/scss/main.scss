@@ -49,6 +49,11 @@
   --WEB_ANALOGOUS1_900: rgb(24, 65, 47);
 }
 
+.btn-icon {
+  border: none;
+  background: transparent;
+}
+
 .btn {
   display: flex;
   gap: 8px;
@@ -93,8 +98,14 @@
     background: var(--WEB_PRIMARY_800);
     border: 1px solid var(--WEB_PRIMARY_800);
     &:disabled {
-      background: var(--BLANCO);
-      color: var(--GRIS40);
+      background: var(--BLANCO) !important;
+      color: var(--GRIS40) !important;
+      cursor: not-allowed;
+      svg {
+        path {
+          fill: var(--GRIS40) !important;
+        }
+      }
     }
 
     &:hover {
@@ -199,3 +210,4 @@
     font-family: "Montserrat", sans-serif;
   }
 }
+@import "datepicker";

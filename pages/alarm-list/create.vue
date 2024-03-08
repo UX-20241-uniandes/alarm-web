@@ -38,6 +38,7 @@
             >Nombre</label>
             <input
               id="alarmname"
+              v-model="alarmName"
               type="text"
               name="alarmname"
               autocomplete="off"
@@ -59,6 +60,8 @@
           <button
             type="button"
             class="btn primary"
+            :disabled="addAlarmDisabled"
+            @click="addAlarm"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -75,22 +78,58 @@
           </button>
         </div>
         <div class="detail">
-          <p class="text body">
+          <p
+            v-if="!alarms.length"
+            class="text body"
+          >
             Ingrese por lo menos una alarma
           </p>
+          <div
+            v-else
+            class="table"
+          >
+            <div class="head">
+              Nombre, Fecha y Hora
+            </div>
+            <div
+              v-for="alarm in alarms"
+              :key="alarm.name"
+              class="row"
+            >
+              <div>
+                <span>{{ alarm.name }}</span>
+                <strong>{{ alarm.date }}</strong>
+              </div>
+              <button
+                class="btn-icon"
+                type="button"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="19"
+                  viewBox="0 0 16 19"
+                  fill="none"
+                >
+                  <path
+                    d="M3 18.7778C2.45 18.7778 1.97917 18.582 1.5875 18.1903C1.19583 17.7987 1 17.3278 1 16.7778V3.77783H0V1.77783H5V0.777832H11V1.77783H16V3.77783H15V16.7778C15 17.3278 14.8042 17.7987 14.4125 18.1903C14.0208 18.582 13.55 18.7778 13 18.7778H3ZM13 3.77783H3V16.7778H13V3.77783ZM5 14.7778H7V5.77783H5V14.7778ZM9 14.7778H11V5.77783H9V14.7778Z"
+                    fill="black"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <button
         class="btn analogous lg"
-        disabled
+        :disabled="!alarms.length"
+        type="button"
+        @click="end"
       >
         Guardar Lista
       </button>
     </form>
-
-    <NuxtLink to="/alarm-list/list">
-      Lista Llena
-    </NuxtLink>
   </div>
 </template>
 
@@ -98,61 +137,146 @@
 <script setup>
 import { ref } from 'vue';
 import VueDatePicker from '@vuepic/vue-datepicker';
-import '@vuepic/vue-datepicker/dist/main.css'
+import dayjs from 'dayjs';
+import localizedFormat from 'dayjs/plugin/localizedFormat'
+import "dayjs/locale/es";
+dayjs.locale("es");
+dayjs.extend(localizedFormat)
 
 const date = ref();
+const alarmName = ref();
+const alarms = ref([]);
+const end = ()=> {
+  return navigateTo({
+    path: '/alarm-list/full'
+  });
+}
+ const addAlarm = () => {
+  alarms.value.push(
+    {
+      date: dayjs(date.value).format('lll'),
+      name: alarmName.value
+    });
+  date.value = null;
+  alarmName.value = null;
+}
+
+const addAlarmDisabled = computed(() => {
+  return !date.value || !alarmName.value;
+})
 </script>
 
 <style lang="scss" scoped>
 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  .title {
+    display: flex;
+    padding-bottom: 8px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid var(--GRIS20);
+  }
+
+  form {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 16px;
+    margin: 0 120px;
+  }
 
-    .title {
+  h2 {
+    margin-top: 16px;
+    border-bottom: 1px solid var(--GRIS20);
+    padding-bottom: 8px;
+  }
+
+  .alarms {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 318px 1fr;
+
+    .detail {
+      border: 1px solid var(--GRIS20);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      overflow: auto;
+      padding: 10px;
+      box-sizing: border-box;
+
+      p {
+        align-self: center;
+      }
+    }
+
+    .table {
+      width: 100%;
+      max-height: 520px;
+
+      .head {
+        padding: 16px 32px;
+        background: var(--WEB_ANALOGOUS1_50);
+        border-top: 1px solid var(--GRIS60);
+        border-bottom: 1px solid var(--GRIS60);
+        position: sticky;
+        top: 0;
+      }
+
+      .row {
         display: flex;
-        padding-bottom: 8px;
-        justify-content: space-between;
         align-items: center;
-        align-self: stretch;
+        justify-content: space-between;
+        padding: 16px 32px;
         border-bottom: 1px solid var(--GRIS20);
-    }
+        overflow: hidden;
+        box-sizing: border-box;
 
-    form {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        margin: 0 120px;
-    }
-
-    h2 {
-        margin-top: 16px;
-        border-bottom: 1px solid var(--GRIS20);
-        padding-bottom: 8px;
-    }
-
-    .alarms {
-        display: grid;
-        gap: 24px;
-        grid-template-columns: 318px 1fr;
-
-        .detail {
-            border: 1px solid var(--GRIS20);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        .btn-icon {
+          transition: all 300ms ease-in-out;
+          position: relative;
+          display: flex;
+          align-self: center;
+          right: -60px;
         }
-    }
 
-    .alarm-form {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
+        >div {
+          display: flex;
+          flex-direction: column;
 
-    }
+          span {
+            font-size: 22px;
+          }
 
-    button {
-        align-self: flex-end;
+          strong {
+            font-size: 14px;
+          }
+        }
+
+        &:hover {
+          background: var(--WEB_PRIMARY_50);
+
+          .btn-icon {
+            right: 0;
+            display: flex;
+          }
+        }
+      }
     }
+  }
+
+  .alarm-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+  }
+
+  .btn {
+    align-self: flex-end;
+  }
 }
 </style>

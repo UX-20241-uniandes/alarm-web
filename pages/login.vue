@@ -103,12 +103,14 @@ definePageMeta({
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   justify-content: space-between;
   gap: 12px;
   padding: 24px;
   box-sizing: border-box;
   height: 100%;
+  max-width: 550px;
+  max-height: 700px;
+  width: 100%;
 
   form {
     width: 100%;
