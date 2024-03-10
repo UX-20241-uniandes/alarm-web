@@ -130,6 +130,30 @@
         Guardar Lista
       </button>
     </form>
+    <Transition>
+      <CustomModal
+        v-if="isModalActive"
+        title="Creación de alarma"
+        width="600"
+        height="350"
+        :has-footer="true"
+      >
+        <div class="modal-content">
+          <span class="text h1">
+            La lista de alarmas fue creada con éxito
+          </span>
+        </div>
+
+        <template #footer>
+          <NuxtLink
+            class="btn analogous"
+            to="/alarm-list/full"
+          >
+            Aceptar
+          </NuxtLink>
+        </template>
+      </CustomModal>
+    </Transition>
   </div>
 </template>
 
@@ -146,12 +170,11 @@ dayjs.extend(localizedFormat)
 const date = ref();
 const alarmName = ref();
 const alarms = ref([]);
-const end = ()=> {
-  return navigateTo({
-    path: '/alarm-list/full'
-  });
+const isModalActive = ref(false);
+const end = () => {
+  isModalActive.value = true;
 }
- const addAlarm = () => {
+const addAlarm = () => {
   alarms.value.push(
     {
       date: dayjs(date.value).format('lll'),
@@ -167,6 +190,16 @@ const addAlarmDisabled = computed(() => {
 </script>
 
 <style lang="scss" scoped>
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -277,6 +310,16 @@ const addAlarmDisabled = computed(() => {
 
   .btn {
     align-self: flex-end;
+  }
+
+  .modal-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
 </style>

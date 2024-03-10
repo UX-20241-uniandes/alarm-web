@@ -1,0 +1,427 @@
+[
+  {
+    "name": "Reuniones Semanales",
+    "code": "ABC123XYZ",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      { "name": "Reunión de equipo", "date": "Ago 16, 2023 8:02 PM" },
+      { "name": "Entrega de informe", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Entrenamiento de seguridad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Inicio de proyecto", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Presentación de resultados",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Inspección de seguridad", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Entrega de equipos de protección",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Charla sobre bienestar laboral",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Auditoría interna", "date": "Ago 16, 2023 8:02 PM" },
+      { "name": "Cierre de mes", "date": "Ago 16, 2023 8:02 PM" }
+    ]
+  },
+  {
+    "name": "Eventos de Capacitación",
+    "code": "XYZ789ABC",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      {
+        "name": "Capacitación en primeros auxilios",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de protocolos de seguridad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Entrega de uniformes", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Anuncio de nuevos proyectos",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrenamiento en ergonomía",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Inspección de equipos", "date": "Ago 16, 2023 8:02 PM" },
+      { "name": "Jornada de salud", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Revisión de metas trimestrales",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Celebración de logros", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Planificación de proyectos futuros",
+        "date": "Ago 16, 2023 8:02 PM"
+      }
+    ]
+  },
+  {
+    "name": "Seguridad en el Trabajo",
+    "code": "LMN456PQR",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      {
+        "name": "Entrenamiento en habilidades blandas",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de políticas internas",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Sesión de feedback", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Lanzamiento de nuevos productos",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Anuncio de promociones internas",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de reconocimientos",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Revisión de procesos", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Sesión de resolución de conflictos",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Presentación de nuevas estrategias",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Cierre de trimestre", "date": "Ago 16, 2023 8:02 PM" }
+    ]
+  },
+  {
+    "name": "Evaluación de Proyectos",
+    "code": "DEF789GHI",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      {
+        "name": "Charla sobre prevención de riesgos",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de informe financiero",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Simulacro de evacuación", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Revisión de objetivos anuales",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Capacitación en ciberseguridad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de premios a la innovación",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de calidad de productos",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      { "name": "Sesión de team-building", "date": "Ago 16, 2023 8:02 PM" },
+      {
+        "name": "Charla sobre equilibrio trabajo-vida",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Inicio de proyectos colaborativos",
+        "date": "Ago 16, 2023 8:02 PM"
+      }
+    ]
+  },
+  {
+    "name": "Bienestar y Salud Laboral",
+    "code": "JKL012MNO",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      {
+        "name": "Reunión de planificación trimestral",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Capacitación en gestión del tiempo",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Presentación de nuevos proyectos",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de estrategias de marketing",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de reconocimientos por desempeño",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de indicadores de rendimiento",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Sesión de desarrollo profesional",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Charla sobre diversidad e inclusión",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Anuncio de políticas de trabajo remoto",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Cierre de proyectos actuales",
+        "date": "Ago 16, 2023 8:02 PM"
+      }
+    ]
+  },
+  {
+    "name": "Desarrollo Profesional",
+    "code": "PQR345STU",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      {
+        "name": "Entrega de informe de seguridad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de protocolos de emergencia",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Capacitación en primeros auxilios",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Lanzamiento de campaña de salud",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Charla sobre bienestar emocional",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de procedimientos de calidad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Sesión de feedback de clientes",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de premios a la seguridad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Reunión de comité de bienestar",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Iniciativa de voluntariado corporativo",
+        "date": "Ago 16, 2023 8:02 PM"
+      }
+    ]
+  },
+  {
+    "name": "Innovación y Mejora Continua",
+    "code": "UVW678XYZ",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      {
+        "name": "Revisión de políticas de teletrabajo",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Capacitación en gestión del estrés",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de informe de sostenibilidad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de proyectos de responsabilidad social",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Sesión de mindfulness en el trabajo",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de premios a la innovación",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Reunión de comité de diversidad e inclusión",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Presentación de resultados financieros",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Celebración de logros del equipo",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Inicio de proyectos de mejora continua",
+        "date": "Ago 16, 2023 8:02 PM"
+      }
+    ]
+  },
+  {
+    "name": "Comunicación Interna",
+    "code": "XYZ901ABC",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      {
+        "name": "Capacitación en seguridad informática",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de políticas de igualdad de género",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de reconocimientos por antigüedad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Charla sobre liderazgo efectivo",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Reunión de comité de ética empresarial",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de premios a la excelencia",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de procesos de reclutamiento",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Sesión de desarrollo profesional",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Celebración de aniversario de la empresa",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Inicio de proyectos de mejora de ambiente laboral",
+        "date": "Ago 16, 2023 8:02 PM"
+      }
+    ]
+  },
+  {
+    "name": "Gestión del Tiempo",
+    "code": "UVW012XYZ",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      {
+        "name": "Sesión de mejora continua",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Presentación de nuevas políticas",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de reconocimientos por antigüedad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Charla sobre balance de trabajo",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de procesos de contratación",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de dispositivos de seguridad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Capacitación en gestión del tiempo",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Anuncio de cambios en el liderazgo",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Sesión de retroalimentación de proyectos",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Planificación de eventos corporativos",
+        "date": "Ago 16, 2023 8:02 PM"
+      }
+    ]
+  },
+  {
+    "name": "Sostenibilidad Corporativa",
+    "code": "MNO345ABC",
+    "created": "Mar 16, 2024 8:02 PM",
+    "alarms": [
+      {
+        "name": "Entrega de informe de sostenibilidad",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de políticas de teletrabajo",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Charla sobre diversidad e inclusión",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrenamiento en nuevas tecnologías",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Presentación de nuevos proyectos de investigación",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de indicadores de desempeño",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Entrega de premios a la innovación",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Sesión de desarrollo profesional",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Revisión de planes estratégicos",
+        "date": "Ago 16, 2023 8:02 PM"
+      },
+      {
+        "name": "Cierre de trimestre fiscal",
+        "date": "Ago 16, 2023 8:02 PM"
+      }
+    ]
+  }
+]

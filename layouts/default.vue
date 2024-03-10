@@ -100,8 +100,8 @@ header {
 main {
   max-width: 1200px;
   height: calc(100vh - 56px);
-  margin: 0 auto;
-  padding: 32px;
+  margin: 32px auto;
+  padding: 0 32px;
   box-sizing: border-box;
 }
 </style>
