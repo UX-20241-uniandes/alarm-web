@@ -104,6 +104,7 @@ defineProps({
         align-items: center;
         justify-content: flex-end;
         border-top: 1px solid var(--GRIS60);
+        gap: 20px;
     }
 }
 </style>

@@ -1,0 +1,52 @@
+[
+    {
+        "titulo": "10 minutos de estiramiento diario",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "Dedica al menos 10 minutos cada día para realizar una serie de estiramientos suaves. Los estiramientos ayudan a mejorar la flexibilidad muscular, reducen la rigidez y mejoran la circulación sanguínea. Además, pueden aliviar el estrés y la tensión acumulados en el cuerpo, lo que te hará sentir más relajado y rejuvenecido."
+    },
+    {
+        "titulo": "Hidrátate",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "El agua es esencial para mantener el cuerpo funcionando correctamente. Asegúrate de beber al menos ocho vasos de agua al día para mantener una hidratación adecuada. Mantenerse hidratado ayuda a regular la temperatura corporal, transportar nutrientes a las células, eliminar toxinas y mantener la piel saludable y radiante. Si haces ejercicio o estás expuesto al calor, es posible que necesites beber aún más agua para reponer los líquidos perdidos."
+    },
+    {
+        "titulo": "Descanso nocturno",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "El sueño adecuado es esencial para la salud y el bienestar. Trata de dormir entre 7 y 9 horas cada noche para permitir que tu cuerpo se recupere y repare. Durante el sueño, el cuerpo realiza funciones importantes como la consolidación de la memoria, la reparación de tejidos y la liberación de hormonas importantes para el crecimiento y la regulación del apetito. Un buen descanso nocturno te dejará sentirte más alerta, energizado y listo para enfrentar el día siguiente."
+    },
+    {
+        "titulo": "Desayuna como un rey",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "El desayuno es la comida más importante del día, ya que te proporciona la energía necesaria para comenzar tu día con el pie derecho. Opta por un desayuno equilibrado que incluya una combinación de proteínas magras, carbohidratos complejos y grasas saludables. Esto podría incluir huevos revueltos con espinacas y aguacate, avena con frutas frescas y nueces, o yogur griego con bayas y semillas de chía. Un desayuno nutritivo te dará la energía y la concentración que necesitas para mantener un rendimiento óptimo durante la mañana."
+    },
+    {
+        "titulo": "Mantén la mente activa",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "Al igual que el cuerpo, la mente también necesita ejercicio para mantenerse saludable y alerta. Dedica tiempo todos los días a estimular tu mente con actividades como la lectura, los crucigramas, los juegos de palabras o el aprendizaje de nuevas habilidades. Estas actividades ayudan a fortalecer las conexiones neuronales, mejorar la memoria y la concentración, y reducir el riesgo de deterioro cognitivo a medida que envejeces. Mantener la mente activa es clave para mantener una mente aguda y ágil a lo largo de la vida."
+    },
+    {
+        "titulo": "Aléjate del estrés",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "El estrés crónico puede tener un impacto significativo en la salud física y mental. Encuentra formas efectivas de gestionar y reducir el estrés en tu vida diaria. Esto podría incluir técnicas de relajación como la meditación, la respiración profunda, el yoga o el tai chi. También es importante establecer límites saludables, priorizar tus actividades y tomarte tiempo para actividades placenteras y de autocuidado. Al reducir el estrés, mejorarás tu estado de ánimo, tu calidad de sueño y tu bienestar general."
+    },
+    {
+        "titulo": "5 porciones al día",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "Las frutas y verduras son fundamentales para una dieta saludable y equilibrada. Asegúrate de consumir al menos cinco porciones al día para obtener una variedad de nutrientes esenciales, vitaminas, minerales y antioxidantes. Esto podría incluir una pieza de fruta fresca como snack, una ensalada colorida como acompañamiento o un batido de frutas y verduras como desayuno o merienda. Las frutas y verduras son bajas en calorías y ricas en fibra, lo que ayuda a mantener la saciedad, controlar el peso y prevenir enfermedades crónicas como las enfermedades cardíacas, la diabetes y ciertos tipos de cáncer."
+    },
+    {
+        "titulo": "Muévete más",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "La actividad física regular es clave para mantener la salud y el bienestar. Intenta incorporar al menos 30 minutos de actividad física moderada la mayoría de los días de la semana. Esto podría incluir caminar, correr, nadar, montar en bicicleta o practicar deportes como el fútbol, el tenis o el baloncesto. La actividad física fortalece el corazón y los músculos, mejora la circulación sanguínea, aumenta la energía y mejora el estado de ánimo. También reduce el riesgo de enfermedades crónicas como la obesidad, la diabetes tipo 2 y las enfermedades cardíacas."
+    },
+    {
+        "titulo": "Cuida tu postura",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "Mantener una buena postura es esencial para prevenir dolores y molestias en la espalda, el cuello y los hombros. Asegúrate de sentarte y pararte erguido, con los hombros hacia atrás y la cabeza en posición neutral. Evita encorvarte sobre el escritorio o la pantalla del ordenador durante largos períodos de tiempo y toma descansos frecuentes para estirar y moverte. Si trabajas en una computadora, asegúrate de que tu estación de trabajo esté ergonómicamente diseñada para minimizar la tensión en el cuerpo."
+    },
+    {
+        "titulo": "Respira profundamente",
+        "imagen": "/public/img/bg.jpg",
+        "recomendacion": "La respiración profunda es una herramienta poderosa para reducir el estrés, la ansiedad y promover la relajación y el bienestar. Tómate unos minutos cada día para practicar la respiración profunda y consciente. Siéntate o acuéstate en una posición cómoda, cierra los ojos y lleva la atención a tu respiración. Inhala profundamente por la nariz, sintiendo cómo tu vientre se expande, y exhala lentamente por la boca, liberando cualquier tensión o preocupación. "
+    }
+]

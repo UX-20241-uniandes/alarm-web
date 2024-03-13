@@ -63,6 +63,7 @@ header {
   border-bottom: 1px solid var(--WEB_PRIMARY_50);
   background: var(--WEB_PRIMARY_800);
   box-sizing: border-box;
+  
 
   .container {
     margin: 0 auto;

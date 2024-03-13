@@ -51,9 +51,9 @@
       <CustomModal
         v-if="listDetail"
         title="Detalle"
-        width="550"
+        :width="550"
         :has-close-button="true"
-        height="660"
+        :height="660"
         @close="closeModal"
       >
         <div class="modal-content">

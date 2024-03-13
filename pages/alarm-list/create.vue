@@ -134,8 +134,8 @@
       <CustomModal
         v-if="isModalActive"
         title="Creación de alarma"
-        width="600"
-        height="350"
+        :width="600"
+        :height="350"
         :has-footer="true"
       >
         <div class="modal-content">
